@@ -1,0 +1,31 @@
+# build output
+/ai-chat
+/build/
+*.o
+*.d
+*.a
+*.so
+*.so.*
+compile_commands.json
+
+# runtime artefacts
+*.pid
+*.log
+/core
+core.[0-9]*
+
+# ai-chat state, if AI_CHAT_HOME is pointed at the project
+/.config/ai-chat/
+
+# local configuration and secrets
+.env
+.env.*
+*.local
+
+# editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
